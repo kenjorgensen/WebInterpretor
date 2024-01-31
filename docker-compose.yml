@@ -5,7 +5,7 @@
         context: .
         dockerfile: Dockerfile
         tags:
-          - WebInterpretor:latest
+          - webinterpretor:latest
       ports:
         - 8000:8000
       volumes:
