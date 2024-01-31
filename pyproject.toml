@@ -1,0 +1,13 @@
+[build-system]
+requires = [ "poetry-core",]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "webinterpretor"
+version = "0.1.0"
+description = ""
+authors = [ "kenjorgensen <kenjorgensen@users.noreply.github.com>",]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
